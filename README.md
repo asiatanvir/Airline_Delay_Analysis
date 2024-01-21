@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 # Introduction:
-=======
+
 # Analysis Of Flight Delay Data
 
 
 ## Introduction:
->>>>>>> 774c80bf7e5a2ea0ca4c9b451352ae70dbda7eae
+
 Tasked to do a class project using Pandas, a wide spectrum of historical, financial, and comparative analysis was considered. While assessing the requirements of project and scope of our learning, we chose to perform exploratory analysis for flight arrivals and delays for U.S. airports through January 2018 – December 2022. In the first half of 2022, about 20% of the flights were delayed by 15 minutes or more(valuepenguin). A flight is considered delayed when it arrives 15 or more minutes than scheduled.  Delayed minutes are calculated for delayed flights only (Bureau of Transportation Statistics). According to DOT’s Air Travel Consumer Report, leading causes of delay were directly related to airline, such as Air Carier Delay and Aircraft Arriving late, while weather and other situations that were outside of direct control had minimal effect.Senate Joint Economic Committee (SJEC) in their report estimated passengers were delayed by 320 million hours in 2007. 
 
 Travel delayd varies across airports depending upon diffren causes of delay. This project provides an insight into the performance of Top20 U.S. Airports and operating Carriers thereof during 2018-2022. Additionally, it briefly highlights the primary contributors to delays, such as carrier-related issues, weather conditions, NAS inefficiencies, security concerns, or late aircraft arrivals. It could assist travelers to make better decisions in operational and financial aspects of travelling. This project included performance analysis, trend identification and root cause analysis but this data set could be effectively used for predictive modeling.
@@ -55,20 +55,13 @@ By collecting further details from different online resources, we explored that 
 Our data analysis further revealed that Atlanta International Airport (ATL) could be termed the hub of air travel. It had the most traffic volume of arriving flights, about 9.8% of all flights. Dallas/Fort Worth International Airport (DFW) & O’Hare International Airport(ORD)  has 8% of the volume share. However when it comes to most delaying airports, Dallas/Fort Worth International Airport (DFW), O’Hare International Airport(ORD), Denver International Airport(DEN), Atlanta International Airport (ATL)  and Los Angeles International Airport(LAX) are the top 5 delaying airports.
 
 
-<<<<<<< HEAD
-![image3](top_20_airports.png)     +   ![image4](most_delaying_airports.png)
-
-        
-The interactive chart created for each airport provides users flexibility and a set of tool for analysis and to predict the probability of arrival performance and chances of delay for a specific airport and make a quick comparison with the average of all airports. Geo Maps are created to describe the location of Top US Airports reflecting the volume and dealyed ratio thereof.
-=======
 | Top 20 Airports                           | Most Delayed Airports                            |
-| ----------------------------------- | ----------------------------------- |
-| ![top_20](top_20_airports.png) | ![most_delayed](most_delaying_airports.png) |
-
+| -----------------------------------       | ----------------------------------- |
+| ![top_20](top_20_airports.png)            | ![most_delayed](most_delaying_airports.png) |
 
         
 The ***interactive chart*** created for each airport provides users flexibility and a set of tool for analysis and to predict the probability of arrival performance and chances of delay for a specific airport and make a quick comparison with the average of all airports. Geo Maps are created to describe the location of Top US Airports reflecting the volume and dealyed ratio thereof.
->>>>>>> 774c80bf7e5a2ea0ca4c9b451352ae70dbda7eae
+
 
 
 ![image 5](interactive_pie_chart.png)
@@ -77,20 +70,6 @@ Coming down to worst arriving airlines, Image 6 shows that American Airlines out
 
 ![image 6](problematic_airlines.png)
 
-
-<<<<<<< HEAD
-
-=======
-## COVID & Post Pandemic Analysis
-
-Monthly performance Analysis for the pandemic year(2020) and previous year(2022) displays peaks and spikes to indicate periods with a higher likelihood and causes of delays
-
-
-* Through visual aggregation the amount of arriving and delayed flights for year 2020 (the peak of the Covid pandemic) and 2022 (declining year).
-* In 2020, the number of flights drastically declines in march due to increase in cancelled flights. That shows the time period the pandemic was declared.
-* The highest arriving number of flights was in December(holiday season) and Jun, Jul, and Aug(summer time) which could be assosiated with increased travelling during December.
-* Towards the end of the year 2020, flight cancellation was not much of an issue, but there was an increase in delay. 
->>>>>>> 774c80bf7e5a2ea0ca4c9b451352ae70dbda7eae
 
 
 References:
